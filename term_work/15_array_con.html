@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>We will see after clicking the button how two array will join</p>
+<button onclick="concateTwoArray()" id="btnClick">Click</button>
+<p id="pId"></p>
+<script>
+function concateTwoArray() {
+var twoDay= ["Sunday", "Monday"];
+var fiveDay= ["Tuesday", "Wednsday","Thursday", "Friday","Saturday"];
+var totalDay = twoDay.concat(fiveDay); 
+document.getElementById("pId").innerHTML = totalDay ;
+}
+</script>
+</body>
+</html> 

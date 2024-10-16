@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Hello(){
+        var name=document.getElementById("name").value;
+        var value=document.getElementById("password").value;
+        if(name==null || name=="")
+        {
+            alert("Name cant be empty");    
+        }
+        elseif(passwprd.length<6)
+        {
+            alert("Password can of 6 letter");
+            return false;
+        }
+    }
+    </script>
+</head>
+<body>
+    <form action="">
+        Name:<input type="text" id="name"><br>
+        Password:<input type="password" id="password"><br>
+        <input type="submit" value="register" onclick="Hello()">
+    </form>
+</body>
+</html>

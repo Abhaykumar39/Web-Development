@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 2px solid black;
+            display: inline-block;
+            margin:10px 10px;
+            width: 260px;
+            height: 200px;
+        }
+    </style>
+    <script>
+        function mouse1(){
+            document.getElementById("box1").style.backgroundColor="yellow";
+        }
+        function mouse2(){
+            document.getElementById("box2").style.backgroundColor="yellow";
+        }
+        function mouse3(){
+            document.getElementById("box3").style.backgroundColor="yellow";
+        }
+        function mouse4(){
+            document.getElementById("box4").style.backgroundColor="yellow";
+        }
+        function mouse5(){
+            document.getElementById("box5").style.backgroundColor="yellow";
+        }
+        function mouse6(){
+            document.getElementById("box6").style.backgroundColor="yellow";
+        }
+    </script>
+</head>
+<body>
+    <div id="box1">
+        <p>This is box1</p>
+    </div>
+    <button id="change" value="change" onclick="mouse1()">change</button>
+    <div id="box2" onmouseover="mouse2()">
+        <p>This is box2</p>
+    </div>
+    <div id="box3" onmouseup="mouse3()">
+        <p>This is box3</p>
+    </div>
+    <div id="box4" onmousedown="mouse4()">
+        <p>This is box4</p>
+    </div>
+    <div id="box5" onmousemove="mouse5()">
+        <p>This is box5</p>
+    </div>
+    <div id="box6" onmouseout="mouse6()">
+        <p>This is box6</p>
+    </div>
+</body>
+</html>

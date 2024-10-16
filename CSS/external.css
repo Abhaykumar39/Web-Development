@@ -1,0 +1,17 @@
+h1{
+    color: chartreuse;
+    font-size: larger;
+    font-variant: inherit;
+    font-style: italic;
+}
+button{
+    color:gold;
+    background-color:darkturquoise;
+    border-radius: 20%;
+}
+body{
+    background-color: yellow;
+}
+p{
+    color: blue;
+}

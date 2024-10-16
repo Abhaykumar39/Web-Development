@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Hello(event) {
+            var name = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+            if (password.length > 8) {
+                alert("Password greater than 8 characters");
+                event.preventDefault(); 
+            }
+        }
+    </script>
+</head>
+<body>
+    <form action="add.html">
+        Username: <input type="email" id="username" name="username"><br>
+        Password: <input type="password" id="password" name="password"><br>
+        <input type="submit" id="submit" onclick="Hello(event)">
+    </form>
+</body>
+</html>

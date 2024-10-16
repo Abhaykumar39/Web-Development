@@ -1,0 +1,16 @@
+/* Box Model - Height Width Border Padding Margin */
+/* Border - border width: 2px , border style: solid,dotted,dashed.  border-color */
+div{
+    height: 100px;
+    width: 50px;
+    background-color: green;
+    border-width: 80px;
+    border-style:groove;
+    border-color: aqua;
+}
+h1{
+    width: 90px;
+    height: 60px;
+    background-color: blueviolet;
+}
+

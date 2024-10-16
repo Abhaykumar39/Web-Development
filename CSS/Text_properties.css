@@ -1,0 +1,33 @@
+/* Text alignment - left,right,center*/
+h1{
+    text-align: center;
+}
+/* Text Decoration - underline,overline,linethrough
+      in this we can assign the colors and decoration to line example:- Wavy,dotted,solid,double,dashed */
+#decoration{
+    text-decoration: green wavy underline;
+}
+
+/*font weight:- normal,bold,bolder,lighter 
+ we can also assign the font weight 100-900 */
+ #font-weight{
+    font-weight: 900;
+ }
+
+ /*font family:- arian,times new roman,sans-serif search from google for best font
+   font-size:-   Here we can set the size of font. 
+   line height:-   Here we can set height of the line. */
+ 
+ #font-family{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    line-height: 10px;
+ }
+
+ /* Text transform:- uppercase,lowercase,capitalize*/
+#text-transform{
+    text-transform: uppercase;
+
+ }
+
+

@@ -1,0 +1,25 @@
+/* element Selectors */
+h1{
+    color: aqua;
+    font-style: italic;
+}
+
+/*class selectors */
+.hello{
+    color: violet;
+    font-weight: 800;
+}
+
+/*id selectors */
+#world{
+    color: teal;
+    font-weight: 400;
+}
+
+/*group selectors */
+h3,#comp{
+    color: yellow;
+}
+
+/*Universals selectors */
+/* *{ color: blue; }*/

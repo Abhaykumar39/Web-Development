@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Hello(){
+            var number = Number(document.getElementById("rev").value);
+            var reverse=0;
+            while(number>0)
+            {
+                reverse=(reverse*10)+number%10;
+                number=Math.floor(number/10);
+            }
+            document.getElementById("result").value=reverse;
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        Enter a number for reverse: <input type="number" id="rev"><br>
+        <input type="button" value="reverse" onclick="Hello()">
+        <input type="number" id="result">
+    </form>
+</body>
+</html>

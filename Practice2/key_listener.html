@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border:2px solid black;
+            display: inline-block;
+            height: 200px;
+            width: 260px;
+            padding: 30px 30px;
+        }
+    </style>
+    <script>
+        function box1(){
+            document.getElementById("div1").style.backgroundColor ="green"
+        }
+        function box2(){
+            document.getElementById("div2").style.backgroundColor ="green"
+        }
+        function box3(){
+            document.getElementById("div3").style.backgroundColor ="green"
+        }
+    </script>
+</head>
+<body>
+    <div id="div1">
+        <input type="text" onkeypress="box1()">
+    </div>
+    <div id="div2">
+        <input type="text" onkeydown="box2()">
+    </div>
+    <div id="div3">
+        <input type="text" onkeyup="box3()">
+    </div>
+
+</body>
+</html>

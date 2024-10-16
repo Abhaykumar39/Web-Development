@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /* ELEMENT SELECTOR */
+        h1{
+            background-color: tomato;
+        }
+
+        /* CLASS SELECTORS*/
+        .class-properties
+        {
+            background-color: violet;
+        }
+
+        /* ID SELECTORS */
+        #id-properties
+        {
+            background-color: steelblue;
+        }
+
+        /*DESCENDENT SELECTORS */
+        div ol li {
+              background-color: aqua;
+        }
+
+        /*UNIVERSAL SELECTORS*/
+        /* *{
+            background-color: red;
+        } */
+    </style>
+</head>
+<body>
+    <h1>Selectors properties</h1>
+         
+    <div class="class-properties">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <div id="id-properties">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, dolores!
+            </p>
+    </div>
+
+    <div>
+        <ul><li>Class A </li></ul>
+        <ol><li>Class B</li></ol>
+    </div>
+</body>
+</html>

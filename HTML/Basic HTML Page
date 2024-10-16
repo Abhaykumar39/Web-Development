@@ -1,0 +1,11 @@
+<!DOCTYPE html> ----- tell browser you are using HTMl5
+
+<html>----- root of an html Document
+
+<head>----- container for metadata
+   <title>MY first page</title>------ Page Title
+</head>
+<body>----- contain all data rendered by the browser
+    <p>Hello world!</p> ------ paragraph tag
+</body>
+</html>

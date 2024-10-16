@@ -1,0 +1,25 @@
+<html>
+<body >
+<p>In this Example we can able to see how to disable mouse right click in JavaScript.</p>
+<script type=”text/javascript”>
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown = function() {
+return false;
+};
+}
+else {
+document.onmouseup = function(x) {
+if (x != null && x.type == “mouseup”) {
+if (x.which == 2 || x.which == 3) {
+return false;
+}
+}
+};
+}
+document.oncontextmenu = function() {
+return false;
+};
+</script>
+</body>
+</html>

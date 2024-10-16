@@ -1,0 +1,22 @@
+header{
+    background-color: aqua;
+}
+section.my-article{
+    background-color: brown;
+}
+
+/* *{
+    color: rgb(255, 0, 0);
+} */
+
+/* Standax Selector */
+header p {
+ color: chocolate;
+}
+
+li a{
+    color: tomato;
+}
+section.my-article h2{
+    color: springgreen;
+}

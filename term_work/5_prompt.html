@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2> Display Prompted box using JavaScript</h2>
+<button onclick="showPromptBox()">Click here to see prompt box</button>
+<p id="pId"></p>
+<script>
+function showPromptBox() {
+var text;
+var username = prompt("Please enter your username", "");
+if (username == null || username == "") {
+text = "User cancelled the prompt.";
+} else {
+text = "Hello !" + username + "Welcome to your website";
+}
+document.getElementById("pId").innerHTML =text;
+}
+</script>
+</body>
+</html>

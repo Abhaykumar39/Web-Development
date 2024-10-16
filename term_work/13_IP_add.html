@@ -1,0 +1,26 @@
+<html>
+<body>
+<script type='text/javascript'>
+function ipAddressValidation()
+{
+var ipAddressPattern = /^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-
+9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/;
+if(document.getElementById('txtletter').value.match(ipAddressPattern))
+{
+alert("Yes you enter corrent IP address.");
+return true;
+}
+else
+{
+alert('IP Address Validation Failed');
+txtletter.focus();
+return false;
+}
+} 
+</script>
+<form>
+Enter Value: <input type='text' id='txtletter'/>
+<input type='button' id="btnSubmit" onclick="ipAddressValidation()" value='Submit' />
+</form>
+</body>
+</html> 

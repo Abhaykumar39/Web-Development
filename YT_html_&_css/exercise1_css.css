@@ -1,0 +1,16 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main-headings
+{
+    background-color: gray;
+
+}
+#main-headings h2
+{
+    color: seagreen;
+}
+
+h3{
+    color: green;
+}

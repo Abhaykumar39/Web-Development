@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           div{
+                 border:2px solid black;
+                 padding: 20px 20px;
+                height: 100px;
+                 width: 130px;
+                 margin:10px;
+                 display:inline-block;
+                 
+           }
+           h2{
+            text-align: center;
+           }
+    </style>
+    <script>
+        function Hello(){
+            box1=document.getElementById("box1").style.backgroundColor="blue";
+        }
+        function hello1(){
+                  document.getElementById("box2").style.backgroundColor="yellow";
+        }
+        function hello2(){
+                  document.getElementById("box3").style.backgroundColor="green";
+        }
+        function hello3(){
+                  document.getElementById("box4").style.backgroundColor="pink";
+        }
+        function hello4(){
+                  document.getElementById("box5").style.backgroundColor="yellow";
+        }
+        function hello5(){
+                  document.getElementById("box6").style.backgroundColor="yellow";
+        }
+        
+    </script>
+</head>
+<body>
+    <div id="box1">
+        <h2>This is box 1</h2>
+    </div>
+    <button onclick="Hello()">Box1</button>
+    <div onmouseover="hello1()" id="box2">
+        <h2>This is box 2</h2>
+    </div>
+    <div onmousedown="hello2()" id="box3">
+        <h2>This is box 3</h2>
+    </div>
+    <div onmouseup="hello3()" id="box4">
+        <h2>This is box 4</h2>
+    </div>
+    <div onmouseout="hello4()" id="box5">
+        <h2>This is box 5</h2>
+    </div>
+    <div onmousemove="hello5()" id="box6">
+        <h2>This is box 6</h2>
+    </div>
+</body>
+</html>

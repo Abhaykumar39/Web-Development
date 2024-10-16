@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Hello(){
+            var number = Number(document.getElementById("fact").value);
+            var fact=1;
+            while(number>0)
+            {
+                fact=fact*number;
+                number=number-1 
+            }
+            document.getElementById("result").value=fact;
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        Enter a number for factorial: <input type="number" id="fact">
+        <input type="button" value="fact" onclick="Hello()">
+        <input type="number" id="result">
+    </form>
+</body>
+</html>

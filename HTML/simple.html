@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        /* CSS for image styling (optional) */
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .image-container img {
+            max-width: 100px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <!-- Images -->
+        <img src="a.jpg" alt="Image 1" onclick="openInfoPage('info1.html')">
+        <img src="image2.jpg" alt="Image 2" onclick="openInfoPage('info2.html')">
+        <!-- Add more images as needed -->
+    </div>
+
+    <script>
+        // JavaScript function to open the information page
+        function openInfoPage(url) {
+            window.location.href = url; // Redirect to the specified URL
+        }
+    </script>
+</body>
+</html>

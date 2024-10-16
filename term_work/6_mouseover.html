@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<img onmouseover="largePictureOnMouseOver(this)"onmouseout="smallPictureOnMouseOut(this)"
+border="0" src="images.jpg" width="64" height="64">
+<p>The large picture will display when mouse pointer over the image and when mouse pointer is moved
+out of picture</p>
+<script>
+function largePictureOnMouseOver(p) {
+p.style.height = "64px";
+p.style.width = "64px";
+}
+function smallPictureOnMouseOut(p) { 
+p.style.height = "32px";
+p.style.width = "32px";
+}
+</script>
+</body>
+</html> 

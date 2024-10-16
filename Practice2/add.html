@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Hello()
+        {
+            var first=Number(document.getElementById("first").value);
+            var second=Number(document.getElementById("second").value);
+            var result= first+second;
+            document.getElementById("text").value=result;
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        Enter the first Number: <input type="number" id="first"><br>
+        Enter the Second Number: <input type="number" id="second"><br>
+        <input type="button" value="Add" id="add" onclick="Hello()">
+        <input type="number" id="text">
+    </form>
+</body>
+</html>
